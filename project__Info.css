@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#bodyofpage1{
+    width: 100%;
+    height: 200vh;
+    /*background-color: burlywood;*/
+}
+body{
+    background-image: linear-gradient(gray,white);
+}
+#conntainerInfo{
+             width: 80%;
+             height: 70vh;
+            /* background-color: lightgreen;*/
+             position: absolute;
+             top: 120vh;
+             left: 10%;
+            overflow: hidden;
+             border-radius: 37px;
+             box-shadow: 5px 5px 5px black;
+}
+#bloggerImage{
+    width: 40%;
+    height:70vh;
+    background-image: url(./rabindranath.jpg);
+    background-repeat: no-repeat;
+   background-size: 100% 70vh;
+   opacity: 10px;
+}
+#authorname{
+    font-size: 100px;
+}
+#table
+{
+    background-color: white;
+    border: 5px orange solid;
+    width: 80vw;
+    height: 70vh;
+    position: absolute;
+    top: 1530px;
+    left: 10%;
+    box-shadow: 4px 4px 4px black;
+    border-collapse: collapse;
+    font-size: 30px;
+    text-align: center;
+}
+th{
+    border: 3px  black solid ;
+}
+
+#footer{
+    width: 100%;
+    height: 60px;
+    
+    position: absolute;
+    top: 300vh;
+}
+i{
+    font-size: 30px;
+    padding-top: 50px;
+    letter-spacing: 30px;
+}
+#cpr{
+    padding-left: 100px;
+}
+#cprtext{
+    padding-left: 0px;
+    font-size: 24px;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+}
+#social{
+    float: right;
+}
+#sociallink{
+    color: blue;
+    text-shadow: 2px 2px 2px black;
+}

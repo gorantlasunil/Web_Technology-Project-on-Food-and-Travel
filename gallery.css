@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#header{
+    width: 100%;
+    height: 70vh;
+    background-color: cadetblue;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 70vh;
+}
+#left{
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    cursor: pointer;
+    color: aliceblue;
+}
+#right{
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0px;
+    top: 200px;
+    cursor: pointer;
+    color: aliceblue;
+}
+/*home code*/
+#navbar{
+    display: flex;
+    list-style: none;
+    color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.sublist{
+  padding-left: 40px;
+  font-size: 30px;
+  transition: transform 1.2s;
+}
+.sublist:hover{
+  transform: scale(1.2);
+  color: red;
+}
+#right2{
+  position: absolute;
+  right: 40px;
+  color: white;
+  top: 10px;
+}
+#logout{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 40px;
+    text-shadow: 4px 4px 4px black;
+}
+/*gallery code*/
+#hii{
+    background-color:cadetblue;
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+img{
+    width: 23vw;
+    height: 33vh;
+    border: 1px 1px 1px black;
+    border-radius: 25px;
+    align-items: center;
+    box-shadow: 5px 5px 5px black;
+    transition: transform 1s;
+    cursor: pointer;
+   }
+   img:hover{
+    width: 23.2vw;
+    transform: scale(1.1);
+   }
+   /*hover image i mean big image*/
+   #bigimage{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7300);
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+   }
+   #bigimg{
+    width: 670px;
+    height: 520px;
+   }
+   #close{
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 30px;
+    right: 350px;
+    cursor: pointer;
+   }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>login page</title>
+    <link rel="stylesheet" href="./loginpage.css">
+    <script src="./loginPage.js" ></script>
+</head>
+<body id="bdy">
+    <div id="outerDiv">
+        <form id="fom" action="../project/project.html">
+        <div id="innerDiv">   
+                   <h1 id="headingOfTHePage">Login</h1>
+                   <div id="inputDiv">
+                   <input id="email" type="email" placeholder="Enter Your Email">
+            
+                   </div>
+                   <div id="passwordDiv">
+                   <input id="pass" type="password" placeholder="Enter Your Password">
+                   <img src="./61-613142_see-no-evil-monkey-icon-monkey-eyes-closed.png" id="visible" onmousedown="visiblePassword()" onmouseup="hidePassword()">
+                   </div>
+                   <h1 id="result"></h1>
+                   <input id="but" type="sumbit" value="Login"  onclick="fun()">
+        </div>
+       </form>
+    </div>
+</body>
+</html>

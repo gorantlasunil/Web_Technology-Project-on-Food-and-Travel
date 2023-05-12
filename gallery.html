@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="./gallery.css">
+    <script src="./gallery.js" defer></script>
+</head>
+<body>
+    <div id="header" onload="header()">
+        <ul id="navbar">
+            <li class="sublist"><a href="../project/project.html" style="color:white" id="logout" >Home</a></li>
+            <li class="sublist"><a href="../project web page/Project___Info.html" style="color:white" id="logout">Info</a></li>
+            <li class="sublist" id="right2"><a href="../project/project.html" id="logout">Logout</a></li>
+          </ul>
+        <button id="left" onclick="left()"><</button>
+        <button id="right" onclick="right()">></button>
+    </div>
+    <div id="hii">
+        <img class="images" onclick="openTheImage(0)">
+        <img class="images" onclick="openTheImage(1)">
+        <img class="images" onclick="openTheImage(2)">
+        <img class="images" onclick="openTheImage(3)">
+        <img class="images" onclick="openTheImage(4)">
+        <img class="images" onclick="openTheImage(5)">
+        <img class="images" onclick="openTheImage(6)">
+        <img class="images" onclick="openTheImage(7)">
+        <img class="images" onclick="openTheImage(8)">
+        <img class="images" onclick="openTheImage(9)">
+        <img class="images" onclick="openTheImage(10)">
+        <img class="images" onclick="openTheImage(11)">
+        <img class="images" onclick="openTheImage(12)">
+        <img class="images" onclick="openTheImage(13)">
+        <img class="images" onclick="openTheImage(14)">
+        <img class="images" onclick="openTheImage(15)">
+        <img class="images" onclick="openTheImage(16)">
+        <img class="images" onclick="openTheImage(17)">
+        <img class="images" onclick="openTheImage(18)">
+        <img class="images" onclick="openTheImage(19)">
+        </div>
+         <div id="bigimage" style="display: none;">
+            <h1 id="close" onclick="colseTheImage()">X</h1>
+            <img id="bigimg">
+         </div>
+</body>
+<script>
+    var img = document.images
+    console.log(img)
+    for(i=0;i<=img.length-1;i++)
+    {
+        img[i].src=`../javascript/direct_model/images/${i}.jpg.jpg`
+    }
+</script>
+</html>

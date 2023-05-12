@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#bdy{
+    background-image: linear-gradient(70deg,rgb(255,1,111),purple);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#outerDiv{
+             width: 70vw;
+             height: 60vh;
+             background-image:linear-gradient(70deg,brown,royalblue);
+             background-repeat: no-repeat;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             border-radius: 20px;
+             box-shadow: 5px 5px 5px black;
+             position: relative;
+}
+#innerDiv{
+    width: 30vw;
+    height: 45vh;
+    background-color: rgb(10, 10, 10);
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 13px;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    bottom: 2px;
+
+}
+#headingOfTHePage{
+    font-size: 45px;
+    letter-spacing: 8px;
+    color: white;
+    position: absolute;
+    top: 2vh;
+}
+#inputDiv,#passwordDiv{
+    width: 25vw;
+    height: 5vh;
+    border: 0.5vh solid royalblue;
+    border-radius: 170px;
+    position: relative;
+    top: 20px;
+}
+
+#email,#pass{
+    width: 100%;
+    height: 6vh;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+#but{
+    width: 9vw;
+    height: 4vh;
+    border: 3px solid lime;
+    background-color: transparent;
+    color: pink;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-align: center;
+   
+}
+#but:hover{
+    background-color: purple;
+    color: white;
+    border-color: yellow;
+    transform: scale(1.2);
+}
+#visible{
+    border-radius: 100%;
+    width: 30px;
+    position: absolute;
+    right: 0.2vw;
+    top: 0.45vh;
+    cursor: pointer;
+    border: 2px solid royalblue;
+}
+#fom{
+    position: absolute;
+    right: 50vw;
+    bottom: 0vh;
+}
+#result{
+    font-size: 30px;
+}
